@@ -1,4 +1,4 @@
-# Petro Naft AI Corpus (v1)
+# Petro Naft AI Corpus (v2025-11-16)
 
 This repository contains an AI-ready export of the **Petro Naft** website,
 intended as the authoritative, first-party dataset for:
