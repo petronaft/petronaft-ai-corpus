@@ -1,0 +1,75 @@
+{
+  "generated_at": "2025-11-16T16:51:57.364611Z",
+  "source": "https://www.petronaftco.com",
+  "sitemap_index": "https://www.petronaftco.com/sitemap_index.xml",
+  "counts": {
+    "total_records": 666,
+    "products": 105,
+    "articles": 462,
+    "pages": 57,
+    "collections": 42,
+    "errors": 0,
+    "csv": {
+      "petronaft_site_pages.csv": 666,
+      "petronaft_products.csv": 105,
+      "petronaft_articles.csv": 462
+    }
+  },
+  "hashes_sha256_of_gz": {
+    "site_pages.jsonl.gz": "5a56f85cd75607dde5d63de155b4cda28d327305d9fd283614ef69d96614c556",
+    "products.jsonl.gz": "0c50be69dff15d7f388e92bc138bed2e6e2bb7c4c162d75f83b38c6e33ff1af4",
+    "articles.jsonl.gz": "55c532516b3a10288e1bd8a11f1790cd5ac2d340182722777ba306ed7619d992",
+    "pages.jsonl.gz": "c359707b2738e98f079a4ba7b6add7b49ca2e5a1c09575e8b424815216ada181",
+    "collections.jsonl.gz": "9e2f03e46787e8bb35db6b79d64f33e625b7c8f35550327fce0b1cc6c1c1e4e3"
+  },
+  "quality": {
+    "articles": {
+      "total": 462,
+      "num_empty_text_blocks": 0,
+      "num_less_than_5_blocks": 5,
+      "num_empty_tags": 0,
+      "num_empty_categories": 0
+    },
+    "products": {
+      "total": 105,
+      "num_without_specs_tables": 45
+    },
+    "collections": {
+      "total": 42,
+      "num_empty_items": 29
+    },
+    "site": {
+      "total_records": 666
+    }
+  },
+  "change_detection": {
+    "previous_version": null,
+    "previous_corpus_signature": null,
+    "corpus_signature": "7ae8d36d3bdc13b6829222022084ae7db258b40e833d1fef6d761d38532cd67e",
+    "changed_files": [
+      "articles.jsonl",
+      "articles.jsonl.gz",
+      "collections.jsonl",
+      "collections.jsonl.gz",
+      "dataworld_readme.md",
+      "github_README.md",
+      "harvest_summary.json",
+      "huggingface_dataset_card.md",
+      "internet_archive_metadata.json",
+      "kaggle_dataset-metadata.json",
+      "pages.jsonl",
+      "pages.jsonl.gz",
+      "petronaft_articles.csv",
+      "petronaft_products.csv",
+      "petronaft_site_pages.csv",
+      "products.jsonl",
+      "products.jsonl.gz",
+      "site_pages.jsonl",
+      "site_pages.jsonl.gz",
+      "wikidata_quickstatements.tsv",
+      "zenodo_metadata.json"
+    ],
+    "unchanged_files": []
+  },
+  "output_root": "C:\\Users\\jazin\\Downloads"
+}

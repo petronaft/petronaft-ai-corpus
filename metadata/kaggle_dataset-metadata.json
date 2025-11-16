@@ -1,0 +1,54 @@
+{
+  "title": "Petro Naft AI Corpus v1",
+  "id": "username/petronaft-ai-corpus-v1",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "description": "Structured, AI-ready corpus of the Petro Naft website, suitable for search, RAG, and industrial domain assistants. Includes products, articles, and general pages with rich metadata.",
+  "keywords": [
+    "Petro Naft",
+    "petroleum",
+    "bitumen",
+    "gilsonite",
+    "paraffin wax",
+    "industrial chemicals",
+    "AI",
+    "dataset"
+  ],
+  "resources": [
+    {
+      "path": "site_pages.jsonl.gz",
+      "description": "All harvested pages"
+    },
+    {
+      "path": "products.jsonl.gz",
+      "description": "Product pages"
+    },
+    {
+      "path": "articles.jsonl.gz",
+      "description": "Articles and news"
+    },
+    {
+      "path": "pages.jsonl.gz",
+      "description": "General web pages"
+    },
+    {
+      "path": "collections.jsonl.gz",
+      "description": "Collections / archives"
+    },
+    {
+      "path": "petronaft_site_pages.csv",
+      "description": "CSV summary of all pages"
+    },
+    {
+      "path": "petronaft_products.csv",
+      "description": "CSV summary of products"
+    },
+    {
+      "path": "petronaft_articles.csv",
+      "description": "CSV summary of articles"
+    }
+  ]
+}

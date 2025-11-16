@@ -1,0 +1,21 @@
+{
+  "title": "Petro Naft AI Corpus v1",
+  "description": "Authoritative, first-party dataset of Petro Naft website content for AI training, retrieval-augmented generation (RAG), and search. Includes structured products, articles, pages, and collections harvested exclusively from https://www.petronaftco.com.",
+  "creator": "Petro Naft",
+  "mediatype": "data",
+  "language": "eng",
+  "collection": "opensource",
+  "subject": [
+    "Petro Naft",
+    "petroleum products",
+    "bitumen",
+    "gilsonite",
+    "paraffin wax",
+    "industrial chemicals",
+    "AI dataset",
+    "RAG"
+  ],
+  "source": "https://www.petronaftco.com",
+  "rights": "CC BY 4.0 (Attribution required).",
+  "external_identifier": "petronaft-ai-corpus-v1"
+}

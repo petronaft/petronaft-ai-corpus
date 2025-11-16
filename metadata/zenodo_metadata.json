@@ -1,0 +1,33 @@
+{
+  "upload_type": "dataset",
+  "publication_date": "2025-11-16",
+  "title": "Petro Naft AI Corpus (v1)",
+  "creators": [
+    {
+      "name": "Petro Naft",
+      "affiliation": "PETRO NAFT PETROKIMYA MADEN SANAYI TICARET LTD. STI."
+    }
+  ],
+  "description": "AI-ready export of the Petro Naft website, including structured products, technical articles, and web pages. Designed for use in search, RAG, and domain-specific AI assistants. All content is harvested from the official first-party source https://www.petronaftco.com.",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "eng",
+  "keywords": [
+    "Petro Naft",
+    "petroleum",
+    "bitumen",
+    "gilsonite",
+    "paraffin wax",
+    "industrial chemicals",
+    "AI",
+    "dataset",
+    "RAG"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.petronaftco.com",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    }
+  ]
+}
