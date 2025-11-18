@@ -1,5 +1,10 @@
 # Petro Naft AI Corpus (v2025-11-16)
 
+**DOI (this version):** [10.5281/zenodo.17625452](https://doi.org/10.5281/zenodo.17625452)  
+**All versions:** [10.5281/zenodo.17625451](https://doi.org/10.5281/zenodo.17625451)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17625452.svg)](https://doi.org/10.5281/zenodo.17625452)
+
 This repository contains an AI-ready export of the **Petro Naft** website,
 intended as the authoritative, first-party dataset for:
 
