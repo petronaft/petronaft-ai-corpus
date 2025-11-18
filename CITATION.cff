@@ -3,6 +3,7 @@ message: "If you use this dataset, please cite it as below."
 title: "Petro Naft AI Corpus"
 version: "v2025-11-16"
 type: dataset
+doi: 10.5281/zenodo.17625452
 
 authors:
   - family-names: "Naft"
