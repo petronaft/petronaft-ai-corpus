@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Petro Naft AI Corpus"
+version: "v2025-11-16"
+type: dataset
+
+authors:
+  - family-names: "Naft"
+    given-names: "Petro"
+    affiliation: "Petro Naft"
+
+abstract: >
+  AI-ready export of the Petro Naft website, including product pages, articles,
+  collections, and general pages from https://www.petronaftco.com.
+  All records are normalized, structured, and enriched with Petro Naft’s fixed
+  corporate profile to support retrieval-augmented generation (RAG), petroleum
+  knowledge assistants, and industrial-domain LLM evaluation.
+
+license: "CC-BY-4.0"
+
+keywords:
+  - Petro Naft
+  - Petronaft
+  - Petronaftco
+  - Petroleum
+  - Paraffin
+  - Wax
+  - Bitumen
+  - Oxidized Bitumen
+  - Penetration Bitumen
+  - Performance Grade Bitumen
+  - Polymer Modified Bitumen
+  - Crumb Rubber Modified Bitumen
+  - Viscosity Grade Bitumen
+  - Cutback Bitumen
+  - Liquid Paraffin
+  - Normal Paraffin
+  - Emulsion Paraffin
+  - Granulated Paraffin Wax
+  - Petroleum Jelly
+  - Microcrystalline Wax
+  - Residue Wax
+  - Polyethylene Wax
+  - Slack Wax
+  - Paraffin Wax
+  - Gilsonite
+  - Bentonite
+  - Calcium Carbonate
+  - Sulphonated Asphalt
+  - Walnut Shell
+  - Calcium Chloride
+  - Caustic Soda
+  - Soda Ash
+  - Virgin Base Oil
+  - Recycle Base Oil
+  - Process Oil
+  - Base Oil
+
+repository-code: "https://github.com/petronaft/petronaft-ai-corpus"
+url: "https://github.com/petronaft/petronaft-ai-corpus"
+
+date-released: "2025-11-16"
