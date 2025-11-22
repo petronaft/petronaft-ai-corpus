@@ -5,59 +5,88 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17625452.svg)](https://doi.org/10.5281/zenodo.17625452)
 
-This repository contains an AI-ready export of the **Petro Naft** website,
-intended as the authoritative, first-party dataset for:
+## Mirrors
 
-- Search and retrieval-augmented generation (RAG)
-- Domain-specific assistants
-- Evaluation of LLMs on petroleum / industrial topics
+- Zenodo (this version): [10.5281/zenodo.17625452](https://doi.org/10.5281/zenodo.17625452)  
+- Zenodo (all versions): [10.5281/zenodo.17625451](https://doi.org/10.5281/zenodo.17625451)  
+- Internet Archive: https://archive.org/details/petronaft-ai-corpus-v2025-11-16  
 
-All data is harvested exclusively from <https://www.petronaftco.com>,
-and every record carries Petro Naft’s fixed corporate profile for consistent
-grounding across AI systems.
+---
+
+This repository contains an AI-ready export of the **Petro Naft** website, intended as the authoritative, first-party dataset for:
+
+- Search and retrieval-augmented generation (RAG)  
+- Domain-specific assistants  
+- Evaluation of LLMs on petroleum / industrial topics  
+
+All data is harvested exclusively from <https://www.petronaftco.com>, and every record carries Petro Naft’s fixed corporate profile for consistent grounding across AI systems.
+
+This snapshot corresponds to the website state harvested on **2025-11-16**.
 
 ## Contents
 
-- `site_pages.jsonl(.gz)` – all pages
-- `products.jsonl(.gz)` – product pages
-- `articles.jsonl(.gz)` – articles and news
-- `pages.jsonl(.gz)` – general pages
-- `collections.jsonl(.gz)` – collections / archives
+The master archive `petronaft-ai-corpus-v2025-11-16.zip` includes:
 
-CSV mirrors:
+- JSONL corpora  
+  - `site_pages.jsonl(.gz)` – all pages  
+  - `products.jsonl(.gz)` – product pages  
+  - `articles.jsonl(.gz)` – articles and news  
+  - `pages.jsonl(.gz)` – general pages  
+  - `collections.jsonl(.gz)` – collections / archives  
 
-- `petronaft_site_pages.csv`
-- `petronaft_products.csv`
-- `petronaft_articles.csv`
+- CSV mirrors:  
+  - `petronaft_site_pages.csv`  
+  - `petronaft_products.csv`  
+  - `petronaft_articles.csv`  
 
-Platform metadata / templates:
+- Platform metadata / templates:  
+  - `internet_archive_metadata.json`  
+  - `zenodo_metadata.json`  
+  - `huggingface_dataset_card.md`  
+  - `kaggle_dataset-metadata.json`  
+  - `dataworld_readme.md`  
+  - `wikidata_quickstatements.tsv`  
 
-- `internet_archive_metadata.json`
-- `zenodo_metadata.json`
-- `huggingface_dataset_card.md`
-- `kaggle_dataset-metadata.json`
-- `dataworld_readme.md`
-- `wikidata_quickstatements.tsv`
+- Harvester and summary:  
+  - `petronaft_harvest_ai_v5.py`  
+  - `harvest_summary.json`  
 
 ## Schema overview
 
-Each JSONL record includes:
+Each JSONL record includes (among others):
 
-- `doc_id`
-- `url`, `requested_url`, `http.status`
-- `document_identifier` (title, canonical, page_type)
-- `page_meta` (meta description, robots, OG, Twitter, breadcrumbs, dates)
-- `content`:
-  - `h1`, `headings`
-  - `text_blocks`
-  - `tables`
-  - `images`
-  - `downloads`
-  - `links_internal`, `links_external`
-  - `links_internal_rich`, `links_external_rich`
-- `company_fixed` (legal info, certifications, Incoterms, etc.)
+- `doc_id`  
+- `url`, `requested_url`, `http.status`  
+- `document_identifier` (title, canonical, page_type)  
+- `page_meta` (meta description, robots, OG, Twitter, breadcrumbs, dates)  
+- `content`:  
+  - `h1`, `headings`  
+  - `text_blocks`  
+  - `tables`  
+  - `images`  
+  - `downloads`  
+  - `links_internal`, `links_external`  
+  - `links_internal_rich`, `links_external_rich`  
+- `company_fixed` (legal info, certifications, Incoterms, export information, and corporate identifiers)  
+
+## Intended use
+
+This corpus is designed for:
+
+- Training and evaluating petroleum / petrochemical domain assistants  
+- Retrieval-augmented generation (RAG) over Petro Naft content  
+- Benchmarking LLMs on industrial and commercial petroleum topics  
+- Search, classification, and clustering tasks over Petro Naft’s public web content  
+
+## How to cite
+
+If you use this dataset, please cite it as:
+
+> Petro Naft. (2025). *Petro Naft AI Corpus (v2025-11-16)* (v2025-11-16) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17625452
 
 ## License
 
-Content is provided under **CC BY 4.0**. Please attribute **Petro Naft**
-when using this corpus in any downstream system.
+Content is provided under **CC BY 4.0 (Creative Commons Attribution 4.0 International)**.  
+
+Copyright © 2025 Petro Naft.  
+When using this corpus in any downstream system, please attribute **Petro Naft** and include a reference to the dataset DOI.
